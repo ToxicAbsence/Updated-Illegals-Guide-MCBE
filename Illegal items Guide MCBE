@@ -10,16 +10,12 @@
 - If the game is closed while the Nether Reactor Core is active, the state of the core will be frozen, and the glowing obsidian will remain intact.
 
 
-
 0.6.0: Alpha
 - Any cake blocks that are placed convert to info_update2. These blocks can be mined with any tool and will drop themselves
 
 - Mining top quartz slabs drops invalid data value slabs
 
 - When slabs are placed on the upper half and subsequently destroyed, they yield top slabs. In this version, top slabs are identifiable by their red icons.
-
-- Placing a slab adjacent to the world border and attempting to place a block that needs support (e.g. torches) on the side of the slab will result in the support block facing towards the world border
-
 
 
 0.7.1: Alpha
