@@ -9,7 +9,7 @@
 
 = Gravity blocks like Sand and Gravel do not fall when placed in mid-air
 
-- Torches can be placed on the side of Fences, resulting in the torches being positioned mid-air. It is important to keep these torches placed on fences in unloaded chunks until later versions, as they randomly break in early versions
+- Torches can be placed on the side of fences, resulting in the torches being positioned mid-air. It is important to keep these torches placed on fences in unloaded chunks until later versions, as they randomly break in early versions
 
 - Wooden slabs can be crafted which later on turn into "Fake Wood Slabs". These are the equivalent to Petrified Oak Slabs in Java and even share the same properties
 
