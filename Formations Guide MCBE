@@ -13,3 +13,5 @@
 - When a door is placed on farmland, the lower half of the door will break while the upper half remains
 
 - When a hoe is used on dirt that is underwater, it will turn into farmland
+
+- Placing a slab adjacent to the world border and attempting to place a block that needs support (e.g. torches) on the side of the slab will result in the support block facing towards the world border
