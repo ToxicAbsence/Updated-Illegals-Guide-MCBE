@@ -1,34 +1,10 @@
-Key:
-(*) = Similar to a Semi-Unobservable Discontinued Feature, but visible when using Texture Packs.
- 
- *  = Semi-Unobservable Discontinued Feature (a discontinued feature that could be observed once by destroying the discontinued feature).
- 
- ** = Unobservable Discontinued Feature (a discontinued feature that can only be observed by making a copy of the world and using third-party software to examine it).
 
- ¹  = Downgrading without Level.dat Editing (a rare case where a discontinued feature can be obtained by downgrading to an older version with the same "MinimumCompatibleVersion" and opening the world normally).
-
- ²  = Downgrading with Level.dat Editing (A discontinued feature that can only be obtained by modifying the "MinimumCompatibleVersion" to enable opening the world in an older version).
-
-[×] = Untested and yet to be discovered.
-
-------------------------------------------
-
-Flowing Waterlogged = A block that remains intact when any water, other than the source water, flows into it.
-
-PDV = Potentially Dangerous Version.
-<br><br>
-
-
-Notes:
-If you want to switch versions on Windows, you can use MCLauncher in the files folder. For versions prior to 0.13.0, you have do it on mobile.
-To access coordinates in older versions of Minecraft, you can use the "CoordinatesUnlocker" Texture Pack. This pack is designed for older versions that automatically enabled cheats when coordinates were activated.
-<br><br>
-0.2.0: (Android Exclusive Version)
+0.2.0: Alpha
 By placing Cactus and/or Ladders on top of snow layers, you can bypass the usual placement restrictions and have them replaced with snow. This allows for cactus to be placed on grass and invisible ladders. To stop the sugarcane and cactus from breaking, simply place a block directly above the snow layer that you want to replace
 <br>
 
 
-0.4.0: (Android Exclusive Version)
+0.4.0: Alpha
 Red dye is obtainable through smelting red mushrooms, which allows for red dye in the output slot of a furnace
 
 Gravity blocks like Sand and Gravel do not fall when placed in mid-air
@@ -43,7 +19,7 @@ When a hoe is used on dirt that is underwater, it will turn into farmland
 <br>
 
 
-0.5.0: (Android Exclusive Version)
+0.5.0: Alpha
 Nether Reactor Cores can be crafted
 
 By activating Nether Reactor Cores near the bottom of the world, it is possible to break Bedrock
@@ -53,7 +29,7 @@ If the game is closed while the Nether Reactor Core is active, the state of the 
 <br>
 
 
-0.6.0: (Android Exclusive Version)
+0.6.0: Alpha
 Any cake blocks that are placed convert to info_update2. These blocks can be mined with any tool and will drop themselves
 
 Mining top quartz slabs drops invalid data value slabs
@@ -64,7 +40,7 @@ Placing a slab adjacent to the world border and attempting to place a block that
 <br>
 
 
-0.7.1: (Android Exclusive Version)
+0.7.1: Alpha
 In this version, all types of buckets can stack up to 64. To prevent them from breaking, place these buckets directly into a chest before updating
 <br>
 0.8.0: (Android Exclusive Version)
