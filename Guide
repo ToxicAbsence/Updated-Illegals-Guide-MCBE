@@ -1,0 +1,575 @@
+Key:
+(*) = Similar to a Semi-Unobservable Discontinued Feature, but visible when using Texture Packs.
+ 
+ *  = Semi-Unobservable Discontinued Feature (a discontinued feature that could be observed once by destroying the discontinued feature).
+ 
+ ** = Unobservable Discontinued Feature (a discontinued feature that can only be observed by making a copy of the world and using third-party software to examine it).
+
+ ¹  = Downgrading without Level.dat Editing (a rare case where a discontinued feature can be obtained by downgrading to an older version with the same "MinimumCompatibleVersion" and opening the world normally).
+
+ ²  = Downgrading with Level.dat Editing (A discontinued feature that can only be obtained by modifying the "MinimumCompatibleVersion" to enable opening the world in an older version).
+
+[×] = Untested and yet to be discovered.
+
+------------------------------------------
+
+Flowing Waterlogged = A block that remains intact when any water, other than the source water, flows into it.
+
+PDV = Potentially Dangerous Version.
+<br><br>
+
+
+Notes:
+If you want to switch versions on Windows, you can use MCLauncher in the files folder. For versions prior to 0.13.0, you have do it on mobile.
+To access coordinates in older versions of Minecraft, you can use the "CoordinatesUnlocker" Texture Pack. This pack is designed for older versions that automatically enabled cheats when coordinates were activated.
+<br><br>
+0.2.0: (Android Exclusive Version)
+By placing Cactus and/or Ladders on top of snow layers, you can bypass the usual placement restrictions and have them replaced with snow. This allows for cactus to be placed on grass and invisible ladders. To stop the sugarcane and cactus from breaking, simply place a block directly above the snow layer that you want to replace
+<br>
+
+
+0.4.0: (Android Exclusive Version)
+Red dye is obtainable through smelting red mushrooms, which allows for red dye in the output slot of a furnace
+
+Gravity blocks like Sand and Gravel do not fall when placed in mid-air
+
+Torches can be placed on the side of Fences, resulting in the torches being positioned mid-air. It is important to keep these torches placed on fences in unloaded chunks until later versions, as they randomly break in early versions
+
+Wooden slabs can be crafted which later on turn into "Fake Wood Slabs". These are the equivalent to Petrified Oak Slabs in Java and even share the same properties
+
+When a door is placed on farmland, the lower half of the door will break while the upper half remains
+
+When a hoe is used on dirt that is underwater, it will turn into farmland
+<br>
+
+
+0.5.0: (Android Exclusive Version)
+Nether Reactor Cores can be crafted
+
+By activating Nether Reactor Cores near the bottom of the world, it is possible to break Bedrock
+Nether Reactor Cores drop Sugar Cane Tile Blocks
+
+If the game is closed while the Nether Reactor Core is active, the state of the core will be frozen, and the glowing obsidian will remain intact
+<br>
+
+
+0.6.0: (Android Exclusive Version)
+Any cake blocks that are placed convert to info_update2. These blocks can be mined with any tool and will drop themselves
+
+Mining top quartz slabs drops invalid data value slabs
+
+When slabs are placed on the upper half and subsequently destroyed, they yield top slabs. In this version, top slabs are identifiable by their red icons.
+
+Placing a slab adjacent to the world border and attempting to place a block that needs support (e.g. torches) on the side of the slab will result in the support block facing towards the world border
+<br>
+
+
+0.7.1: (Android Exclusive Version)
+In this version, all types of buckets can stack up to 64. To prevent them from breaking, place these buckets directly into a chest before updating
+<br>
+0.8.0: (Android Exclusive Version)
+** - Loading a world creates a "players" folder in the world files
+
+In this version, item duplication is possible, and items can be stacked beyond their usual limits. To achieve this, you need to follow these steps: Open your world to LAN and connect with a second device. Alternatively, you can use apps like Parallel Space to run multiple instances of Minecraft simultaneously if you don't have a second device. After that, drop the items to the second device. After 10 seconds, relog on the host device. This will overstack everything you threw to your device. Place the duplicated items into a chest, and you will find their stack size increased significantly, usually exceeding 99. In some cases, the stack size may appear as negative, but it will still show as 99+ in the game
+
+Cacti can grow adjacent to other blocks
+
+Torches can be placed inside of paintings
+<br>
+
+
+0.8.0 alpha build 4: (Android Exclusive Version)
+Carpets can be crafted with wool, which will be useful for the next version
+<br>
+
+
+0.8.0_test1: (Android Exclusive Version)
+Note: This version never got released publicly, but it was uploaded to the play store servers. You can download this with Aurora Store if you have the build number, or you have to get an apk of this version.
+
+Carpets can be placed underwater
+
+Logs can now be placed sideways. Mining these sideways logs drops invalid data value logs
+<br>
+
+
+0.9.0 alpha build 1: (Android Exclusive Version)
+Note: To update the old world to an infinite world, it can be done by editing the "generator:0" value in the level.dat to "generator:1" which changes the generation to infinite
+Furnaces that generate in villages currently are data value 0, and thus have no visible face
+
+Cactus can be placed adjacent to other Cactus, which is not normally allowed. These Cacti need to be 3 block tall to prevent random ticking breaking them
+
+Breaking blocks underneath snow layers leaves the snow layer floating
+<br>
+
+
+0.12.0: (Android Exclusive Version)
+Iron golems do not have knockback resistance
+<br>
+
+
+0.12.1: (Android Exclusive Version)
+Placing sponge underwater won't make it absorb any water
+
+Breaking Wall Signs, Standing Signs, Flower Pots, Skulls, Brewing Stands and Beds with Silk Touch will make them drop their tile variant instead of the normal variant
+
+When you rename an item using an Anvil, it adds Anvil Uses to the item, resulting in an increased cost for the item with each renaming
+<br>
+
+craft a stonecutter with 4 cobblestone in a square (this is minecraft:stonecutter but the regular stonecutter is minecraft:stonecutter_block)
+
+
+0.15.2.1: (Android Exclusive Version)
+** - Doors had a durability of 66 and retained their damage value when updated. It's worth noting that this observation can only be made using NBT Editors in later versions, and stacking undamaged doors with damaged doors will remove the damage value of the stacked doors
+<br><br> 
+0.15.9:
+During this version tamed cats can be left in unloaded chunks until b1.8.0.8. Leaving tamed cats unloaded for this period of time will create tamed ocelots, and thus a discontinued variant of ocelots. To showcase a tamed Ocelot, you could make it sit before the changes that rendered them untameable, or you could use the Discontinued Feature Tweaks pack
+<br>
+
+
+0.16.0 build 4: (Android Exclusive Version)
+Anvils, slightly damaged, and damaged anvils falling on torches drop differing data values dependent on direction. Depending on the anvil type and direction all data values from 0 through 11 are obtainable, allowing for several discontinued data value variants of anvils
+<br>
+
+
+0.16.0.5: (Android Exclusive Version)
+Shearing mooshrooms drops mushrooms with a damage value of -1
+<br>
+
+
+0.17.0.1: (Android Exclusive Version)
+!!!   PDV: Hitting mobs crashes the game.   !!!
+Updating a world from 0.15.0.1[×] to this version overwrites the biome data of existing chunks and changes the biomes to a stripe pattern
+
+Wet Sponge does not evaporate in the nether
+
+Chorus plants can be mined with silk touch
+
+Mining a furnace while it is smelting with a silk touch pickaxe drops a lit furnace
+<br>
+1.1.5.0:
+Breaking Blocks while they are being moved with a Piston drops the Moving Block tile (Probably needs a Silk Touch Pickaxe)
+<br>
+
+Beta 1.2.0.2: (Android Exclusive Version)
+Water, flowing water, lava, and flowing lava tiles can be obtained through various setups of mining progress transfer.  A block that is quick to mine and easily replaceable, such as snow, should be replaced with a liquid while holding left click with a silk touch tool, and the resulting liquid tile has a chance of dropping
+
+Hoppers can currently be used to place undyed shulker boxes inside of dyed shulker boxes
+
+Pumpkins can be equipped on armor stands. These pumpkins will convert to regular pumpkins in future versions instead of carved pumpkins
+
+Farmer villagers now sell 5-7 apples instead of just 5 apples
+<br>
+
+1.2.3.3
+ -obtain a mob spawner by mining it (does not require silk touch)
+
+Beta 1.2.5.0: (Android Exclusive Version)
+Spawners drop themselves when broken
+<br>
+
+
+
+1.2.6.55: (Android Exclusive Version)
+Any item from a crafting recipe can be obtained so long as the player has at least one ingredient for the crafting recipe. This bug can only be performed using the mobile UI. This works by first selecting a red crafting recipe from the recipe book. Then in the crafting interface, a valid recipe item can be selected, and then swapped with one of the ingredients outlined in red. This allows for not only item duplication, but also lingering potions of decay from the tipped arrow of decay crafting recipe
+
+Using the crafting recipe item swap, bows can be obtained from dispenser recipes and shovels obtained from boat recipes. These tools will have -32767 durability. After obtaining they must be combined with another low durability tool to prevent the value of -32767 rolling over to 0, and all negative durability values from -1 through -32766 are obtainable
+<br>
+1.2.11: (Android Exclusive Version)
+Placing Daylight Sensors in the nether leaves them powered
+<br>
+
+
+Beta 1.2.13.5: (Android Exclusive Version)
+Placing water inside of end portals and end gateways cause the portal tile to drop. These items are not normally obtainable. A water bucket can simply be placed inside of an end portal since it is not a full block, however for end gateways a dispenser with a water bucket must be used
+
+Curses of Vanishing and Binding can be obtained through trading with villagers. These enchanted book trades are treated like normal enchanted book trades instead of as treasure enchantments, allowing for cheap cursed book trades
+<br>
+
+
+Beta 1.2.13.8: (Requires "Use Experimental Gameplay", Android Exclusive Version)
+Curse of Binding and Curse of Vanishing enchantments currently use the same id as Loyalty and Channeling respectively, and in future versions all curse enchantments will convert  to their respective trident enchant. This allows for channeling on any item that can be enchanted, and loyalty on any armor item that can be enchanted
+
+Impaling and Riptide enchantments currently use the same id as Curse of Binding and Curse of Vanishing enchantments respectively, and in future versions all impaling and riptide enchantments will convert back to their respective curse. This allows for curse of binding I-V and curse of vanishing I-III books, villager trades, and tridents
+<br>
+1.2.13.8 => 1.2.6.60: (Requires Downgrading²)
+!!!   BPC (Block Palette Corruption) may make your world unplayable if you don't have a beefy device! Crashes are expected to happen. If you are stuck in the loading screen while trying to load the world, re-open minecraft.   !!!
+
+Loading a world in 1.2.13.60 and downgrading it to 1.2.6.60 will turn all sub-chunks with blocks inside them (air excluded) into chunks with random blocks. This can also load thousands of entities and tile entities, making it super laggy. These chunks have a random block palette and may have illegal block formations like crops or saplings on top of invalid blocks. Known blocks that can be obtained in block form with this glitch are: Blue Torches, Deny Blocks, Allow Blocks, Invisible Bedrock, Monster Spawners (empty), Compound Creators, Glitched black banners, Glowing Obsidian, all Command Block variants, End Portal Tiles, Nether Reactor Cores, tile.info_update.name, tile.reserved6.name, Hardened White Stained Glass, Chemical Heat, Wall Skulls, Structure Blocks with a loaded area, Structure Void and Unknown Elements
+
+Compound Creators can be Flowing Waterlogged
+<br>
+
+
+Beta 1.2.14.2: (Android Exclusive Version)
+Flowers, saplings, and dead bushes can all be waterlogged
+<br>
+
+
+1.4.0: (Android Exclusive Version)
+When you drop TNT onto a string connected to tripwire hooks on both sides and let it detonate, a ghost block can be generated. To obtain portal blocks with this method, you first have to create a ghost block inside of a nether portal frame. Then you have to add a pressure plate that is connected to a piston responsible for pushing the player in front of the portal. Additionally, connect the pressure plate with a dispenser that can ignite the portal. Lastly, start breaking the obsidian with a silk touch pickaxe and step on the pressure plate to break the ghost block. If done correctly, the ghost block should break right as the portal gets ignited and a portal block drops
+Portal Blocks can be placed next to each other without updating
+<br>
+
+
+Beta 1.6.0.1: (Android Exclusive Version)
+(*) - Phantoms had 5 hearts instead of 10 hearts in this version. This can be observed with the discontinued feature tweaks pack.
+<br><br>
+
+
+1.8.0:
+Bedrock can be obtained by making a Bamboo-based Bedrock Farm in the End. The Farm is powered by End Crystals that regenerate the Bedrock automatically: Farm Tutorial: https://youtu.be/gA4l__oYjQ0
+<br>
+
+
+Beta 1.11.0.1: (Android Exclusive Version)
+Updating slabs into this version will cause them to be converted into double slabs. All wood slabs, except for Petrified Oak Slabs, will not convert. In modern versions, these double slabs will turn into normal looking smooth stone slabs and red sandstone slabs, however, they cannot be placed down
+<br>
+
+
+1.12.0:
+Smelting cobblestone and other items[×] changes their damage value to 32767. However, any item with a damage value of 32767 will revert back to 0. You can safeguard such items by storing them in a shulker box and subsequently destroying the box. Placing the box back down would also automatically reset their damage values to 0
+
+ - Breaking leaves with silk touch will drop leaves that don't stack with each other. These can have a "update_bit" tag, "persistant_bit" tag, or both. Just like items with a damage value of 32767, these will revert to normal leaves in newer versions. You can use the same method mentioned above to store these safely without reverting
+<br><br>
+YouTube
+PRGRMR
+Bamboo based Bedrock block farm [1.8] | Minecraft Bedrock Edition
+Image
+1.14.0:
+When using the Silk Touch enchantment on Red/Brown Mushroom Blocks and Mushroom Stems, they will drop Mushroom blocks with distinct NBT values and a different appearance
+
+Farmers buy 4 melon slices instead of melon blocks on the level 3 trade
+
+Farmers buy eggs on the level 4 Trade
+
+Bubble Columns can be obtained via Mining Block Transfer
+
+Open Barrels can be created by opening a barrel as it gets pushed by a sticky piston
+<br>
+
+
+Beta 1.16.0.57: (Android Exclusive Version)
+Treasure Bastions spawn with a barrier block in one of the lava pools at the top
+<br>
+
+
+Beta 1.16.0.60: (Android Exclusive Version)
+When you break Nether sprouts, they drop an invisible item. However, when you pick it up, it looks like a Warped Sign icon that appears glitched
+<br>
+
+
+Beta 1.16.20.53: (Android Exclusive Version)
+Piglin Brutes may spawn with enchanted Axes
+<br>
+1.16.40:
+!!!   PDV: When performing Gravity Block Conversion, some gravity blocks may turn into blocks from Education Edition and those blocks may softlock your world!   !!!
+Note: If your menu is Glitched, you can use the 1.16.40 Menu Fix in the Texture Pack Folder
+
+Pistons can extend below y level 0
+
+Support blocks (e.g. vines, ladders) can be placed onto chains
+
+Endermen can pick up Warped and Crimson Fungus and they can place it on any full block
+
+In this version it was possible to do Gravity Block Conversion. This is done by letting Gravity blocks fall into an end gateway, which would then turn into a different block upon relog.
+Items Obtainable from this Glitch are:
+Bedrock, Liquid tiles, Fire & Soul Fire, Smooth Stone Bricks, Smooth Purpur, Chiseled Purpur, Infested Stone Variants, Command Blocks, Barriers, Structure Air, Structure Void, Jigsaw Blocks, End Gateways, End Portal Tiles, Monster Spawners, Old Stonecutters, Nether Reactor Cores, tile.info_update.name, tile.info_update2.name, tile.reserved6.name, tile.chemical_heat.name, tile.hard_glass.name, tile.hard_glass_pane.name, tile.underwater_torch.name, Light Blocks ranging from 0-15 and Glitch Anvils (Anvils in a "broken" state; It's essentially what an anvil turns into when it breaks before it actually disappears; the "Discontinued Feature Tweaks" Texture Pack alters the appearance of these Broken Anvils and Infested Stone blocks, making them easier to distinguish)
+<br><br>
+
+
+1.16.40 => 0.6.0: (Requires Downgrading¹)
+!!!   If your phone is crashing upon creating a world in 0.6.0, you can unzip the "Cross Dimension Chunk Template" zip file and move the extracted folder to "games > com.mojang > minecraftWorlds"   !!!
+Note: this may be considered cheating because it does require you to move world files
+You can get cross dimension chunks (e.g. Overworld chunks in the end/nether) by following these steps:
+Enter the end and stand at the coordinates: 115 100 149 in 1.16.40
+Downgrade to 0.6.0 and create a world with the same seed as your 1.16.40 save
+Move the db folder from 1.16.40 into the 0.6.0 world
+Upgrade back to 1.16.40 and change to infinite before loading the world. Crashes are expected to happen
+<br>
+
+
+1.16.100:
+If you place a gateway block on the central pillar of the end fountain and the dragon perches on the fountain, it will become frozen. Upon re-entering the end, an end gateway will appear where the dragon was, and the dragon will be free again. his exploit enables you to acquire more than 20 gateways because the game does not verify the number of existing gateways. These manipulated end gateways teleport you to the spot where you manually placed the gateway block
+<br>
+
+
+1.16.201:
+When pushing End Crystals with a flying machine during the process of summoning the ender dragon, the crystals will not update their status. As a result, they will remain indestructible and permanently display the summoning beam
+If you punch an end crystal while in the process of summoning the ender dragon, and you happen to be standing within the exit portal, you will be transported back to the overworld. As a result, you will find four beaming crystals at your exit portal, which are destructible. Please note that the number of crystals may vary, sometimes resulting in three crystals, depending on the speed at which you are sent back to the overworld
+
+Wandering Traders sell ink sacs with a damage value of 4
+
+Within Woodland Mansions, it is possible to obtain Leather Helmets enchanted with Efficiency 1, along with black glow sticks. The helmets can be located in a secret room containing a chest and a tree. This room is easily identifiable due to its blocked-off entrance, though the frame remains visible. On the other hand, finding the Glow Sticks can be quite challenging as they only appear in the rare Fake End Portal Room. Unlike the Helmet Room, there are no indicators to help locate it. To simplify the search for the fake portal room, you can use the Mansion Hider pack in the Texture Pack folder, which allows you to see through walls. It's important to note that both of these rooms can only appear on the mansion's first floor
+<br>
+
+
+1.16.220:
+When a Minecart is positioned ontop of a Detector Rail and the rail is pushed, it will remain in a powered state after the minecart is destryoed
+
+It is possible to "Flowerlog" non-full blocks. To achieve this, you need to cover a Flower or Grass with a layer of Snow and then place the desired block onto the Snow layer. As a result, the snow layer will be replaced with the chosen block while keeping the flower intact
+When End Portals are activated, they do not trigger Block Updates. This allows for the creation of floating gravity blocks and other things like headless pistons and Portal-Logged blocks
+
+By placing end portal frames across Chunk borders or adding extra frames to the corners, it becomes possible to create end portals that have missing frames. This can be achieved by flower logging End Portal Frames, activating them, and then breaking the grass block located underneath
+
+Taking Damage mid-air right before you land will give you absorption hearts. The max amount of absorption hearts you can get is 8 and they will not disappear
+
+Animals have a maximum speed they can walk at, but this limit can be circumvented with breeding. First, obtain 2 animals that are breedable. If the animal is a horse, make sure to tame them. Splash the animals with a potion of swiftness, and then breed them. The offspring will have a permanent speed boost. This can be repeated with the offspring to allow for even higher speeds
+() - Foxes can wear armor in this version, simply by dropping it to them. If you want to make the Armor visible, use the "ArmoredFoxesV4" Texture Pack in the Texture Pack Folder.
+
+() - Glowstone can be Dispensed onto hostile mobs that can wear armor, armor stands and players. To make the Glowstone visible, you can use the discontinued feature tweaks texture pack
+<br><br>
+
+
+Beta 1.17.0.58: (Android Exclusive Version)
+In this Version, Powder Snow Buckets can be obtained by placing Cauldrons in snowy areas, which will be useful for the next versions
+<br>
+Beta 1.16.210.54: (Android Exclusive Version, Requires Experimental Mode and Downgrading²)
+In this version, it is possible to snowlog blocks that do not have a full box collision. To snowlog such blocks, you need to place a block adjacent to the desired block and then right-click the adjacent block with a Powder Snow Bucket to place the powder snow inside of it
+<br>
+
+
+Beta 1.16.220.51: (Android Exclusive Version, Requires Experimental Mode and Downgrading²)
+If you place any Cut Copper variant down and update to version 1.16.220.52, the blocks will transform into Unknown blocks. These Unknown Blocks will retain their original ID, "minecraft:cut_copper_block". You can also store these cut copper blocks in shulker boxes before updating
+<br>
+
+
+Beta 1.17.0.50: (Android Exclusive Version)
+By letting a wither blow up Powder Snow by punching the wither, you can obtain a Powder Snow Block
+<br>
+
+
+Beta 1.17.0.52: (Android Exclusive Version)
+** - When you feed Axolotls, the returned bucket will have a damage value of 32767. Similar to other items with the same damage value, it needs to be stored in a shulker box
+<br><br>
+
+
+Beta 1.17.0.52: (Android Exclusive Version, Requires Experimental Mode)
+Enable the "Caves and Cliffs" experimental toggle and load the specific chunks you want to
+<br>
+1.17.0:
+All chunks that have previously been loaded with the "Caves and Cliffs" experimental toggle will be raised by 64 blocks, creating monolith-like terrain. This also removes all tile entity data, which may result in things like empty mob spawners
+<br>
+
+
+Beta 1.17.0.54: (Android Exclusive Version, Requires Downgrading¹)
+Walls connect to Powder Snow
+<br>
+
+
+1.17.0:
+By placing a block against the top of an Amethyst Shard, regardless of its size, and subsequently removing the supporting block, the shard will remain floating in mid-air. Once it is floating, you can also remove the other block
+
+In this version, when a dispenser is used to place powder snow on the right side of a portal (specifically East or North facing portals), the portal will split, leaving behind portal blocks solely on the layer where the snow was placed. This enables the removal of all obsidian blocks except for the ones on that particular layer
+
+When mining a lit Observer, it will retain its lit state in the inventory. It's important to note that these lit Observers can be stacked with regular Observers
+
+Paintings can overlap with Glow Item Frames, Signs, Banners, and Torches
+Vindicators can spawn from Patrols when the world difficulty is set to Hard. However, this feature was removed later on, resulting in Vindicator Patrol followers and Patrol Captains being discontinued
+
+You can place the following support blocks onto Lightning Rods: Torches, Snow layers, Buttons, Levers, Corals, Scaffolding, Bells, Rails, Tripwire Hooks, Repeaters, Comparators, Redstone Dust, Doors, Pointed Dripstone, Twisting Vines, Vines, Ladders, and Glow Lichen. However, please note that Torches, Tripwire Hooks, Vines, Ladders, and Glow Lichen can only be placed on the side of the Lightning Rod
+
+Big Dripleaf does not have any placement restrictions and can be placed on any block
+
+Glow Lichen can be placed on farmland and dirt paths
+
+Hanging Roots can be Waterlogged
+
+When you tie an axolotl to a Fence or a Wall and then scoop it up, the Leashes will not detach from the Fences or Walls. As a result, the Axolotls will remain unattached and unable to be leashed
+
+Using Dispensers to remove water from Bubble Columns does not destroy the Bubble Column itself; instead, it simply removes the water and reverts it to a non-waterlogged state. This can also be used to make flowing waterlogged bubble columns
+
+Leashing Axolotls before scooping them up with a bucket will not unleash the axolotl
+
+When a mob is left with only one heart and is simultaneously struck by an Instant Health Potion and an Instant Damage Potion, the mob becomes invincible. If the mob appears red and shaking, rejoining the game will restore its normal appearance
+<br>
+
+
+1.17.10:
+!!!   PDV: End Portals give fall damage based on the player's y coordinate in the Overworld. y=75 is enough to kill an unarmored player and y=100 is enough to kill anyone!   !!!
+When you waterlog stairs or slabs and subsequently break them, the water does not update, resulting in floating water
+
+Dripleaf blocks can be cut off by mineshafts, resulting in floating Dripleaf Stems within the Mineshafts. This occurrence is extremely rare due to the specific conditions required for it to happen. The Dripleaf must generate on the same x and z coordinates as the Mineshaft and at a specific height where the top portion of the Dripleaf gets cut off. If you wish to observe this yourself, you can enter the seed -1970066601 and go to the coordinates: -266 7 -253
+
+Previously loaded chunks will get 64 bedrock layers if you turn on the "Caves and Cliffs" Experimental Toggle
+
+Support Blocks can be placed onto Candles
+
+Placing and picking up a Banner makes it Unstackable with crafted Banners
+Picking up a Fish, or any other mob that can be scooped up, right as it dies, gives you a dead animal in a Bucket
+
+By surrounding lava or water with portal blocks on all sides and then updating the portals by placing blocks next to them, you have the ability to create floating lava or water. This technique can also be applied to gravity blocks such as sand or gravel
+
+in the end dimension, if you place an end crystal and then 2 pistons on different sides with their heads facing the end crystal, and activate them both at the same, they both will extend, leaving 2 piston heads in the same block
+
+Putting something on fire and breaking the block underneath while the game setting "Fire Spreads" is off will make the fire float and it won't distinguish. To see floating fire, you can use the discontinued feature tweaks texture pack
+<br>
+
+
+Beta 1.17.20.22: (Android Exclusive Version)
+Snow layers will float if you break the block underneath
+<br>
+ToxicAbsence — Today at 11:29 AM
+1.17.32:
+!!!   PDV (1.17.30-1.17.40): A code change touched how the "autonomous entities list" worked and it wasn't getting cleared correctly. For example, if you would enter the end but not slay the dragon, it would be in this list. Then if you save and relog, the list would multiply by 2 everytime. This causes the world to use alot of memory and crash upon loading if the list for example has 2^18 dragons  !!!
+
+Support Blocks can be placed onto Light Blocks
+<br>
+
+
+1.17.40:
+Breaking Buttons with a Silk Touch Axe/Pickaxe drops Pushed Buttons. However, these can also stack with normal buttons, so be careful
+<br>
+
+
+Beta 1.17.40.21: (Android Exclusive Version)
+Flowers in Meadows can replace blocks from structures like village houses, which can make Discontinued Block Formations
+<br>
+
+
+Beta 1.18.0.24: (Android Exclusive Version)
+Deep Warm Oceans can still naturally generate. Example: Seed: 704291340, Coordinates: -621, 82, 694. To make deep warm oceans distinguishable, you can use the discontinued feature tweaks texture pack
+<br>
+
+
+1.18.0:
+placing walls underneath floating candles will make the walls fully strech
+
+Pushing piglins through a nether portal while they are trying to barter with the player, they will put the item that was given to them into their offhand, making them dual wielding mobs
+Pushing a villager through a nether portal while it is holding something will make the villager permanently hold the item. Do not hold an item that the villager wants once it is permanently holding an item or else it will stop holding it again
+
+Scaffolding at y=1 will not update and fall if there is no block below it
+
+Making an Old World infinite will make new chunks not generate blocks below y0 and it will shift the old chunks down
+
+Librarians only require a single Book and Quill instead of two
+
+Cartographers offer bedrock-specific banner patterns (Bordure Indented, Field Masoned) or the Flower Charge banner pattern on their master level trade
+
+Butchers have cooked beef, cooked rabbit, and cooked mutton trades
+
+Journeyman Armorer do not trade diamonds for emeralds
+
+Novice Weaponsmiths do not trade Iron swords for emeralds
+
+Apprentice Weaponsmiths trade enchanted iron swords
+
+Journeyman Clerics sell 1 glowstone dust for 4 emeralds
+Fishermen Boat trades do not change the wood type based on villager biome type, allowing you to obtain fishermen with mismatched wood type boats
+
+Aquifers can generate with missing bits of water, one can be found on the seed -1119260051 at -23, 111, 63
+
+Updating any world to this version will not generate anything below y=0 if there is no bedrock at y=0
+
+Spikes out of Dripstone Blocks can spawn on the surface
+
+Chunk blending can mess up structures, which can lead to things like half beds, floating gravity blocks or floating support blocks
+
+Structures like Ocean Ruins often spawn on land
+
+Some igloos can generate with Redstone Torches facing the wrong way. Example: Seed: 1235243567, Coordinates: 115 79 547
+
+Mountain generation breaks at 2,812,332 blocks away from 0, 0 and replaces everything within a Frozen Peaks or Stony Peaks biome, execpt Aquifers, with huge lava ravines. These Aquifers can stretch all the way down to lava height and be on top of the lava without updating it and turning it into Obsidian. An example can be found on the Seed: -1485667881, at 2891297 -49 9439. On some devices, Monolith-like terrain generates instead of Lava Ravines. These "Monoliths" can go up to the old world height limit, y=256
+<br>
+1.18.10:
+When you are in the furnace UI, the third slot in the hotbar acts as another output slot. For instance, if you switch between two stacks of netherite scraps (rename one to be able to swap) in this slot, you will receive 128 XP per swap. By using an autoclicker, you can reach the maximum level using this glitch in approximately 10 hours. An autoclicker for PC can be found in the files folder
+
+It is possible to obtain villagers with incorrect trades, such as a fletcher with stone mason trades. To achieve this, follow these steps: First, place 20 beds, with 19 of them corresponding to one type of workstation and 1 bed with a different type of workstation. Next, bring 20 villagers to the area where you have set up the beds and workstations. Then you have to zombify all the villagers (for a 100% zombification rate, ensure you are in hard mode). Once they are zombified, you can cure them. If done correctly, one of the villagers should have incorrect trades. This occurs because the villager retains their profession after being zombified, but during the curing process, there is a brief moment when they can change professions before returning to their original state. Please note that this method does not guarantee a 100% success rate
+
+Walls connect to bells
+<br>
+
+
+1.18.12:
+Gravity Blocks can hover over Top Snow by placing them directly above
+
+Red/Brown Mushroom Blocks, Chorus Plants/Flowers, Iron/Gold Nuggets and Nether Bricks can be placed into the fuel slot in furnaces
+<br>
+
+
+Beta 1.18.10.24: (Android Exclusive Version, Requires Experimental Mode)
+Glow Lichen can be placed on top of Frog Eggs
+<br>
+Beta 1.18.10.26 => Beta 1.18.10.22: (Android Exclusive Version, Requires Downgrading¹)
+!!!   Do not turn "keep app data" on when uninstalling Minecraft because it may cause problems. Read the "1.18 Downgrade Warning for Android" Document for more info.   !!!
+Downgrading a cartographer with the globe pattern trade from 1.18.10.26 to 1.18.10.22 turns the trade into an empty trade
+
+Making a Banner with the Globe Pattern and downgrading to 1.18.10.22 turns the globe banner pattern on the banner into "item.banner.base.x". Globe Banners keep the globe banner tag, which means they will turn into normal banners when updating back. To bypass this, simply place the banners down and break them, this will remove the globe banner tag and keep the item.banner.base.x tag
+<br>
+
+
+Beta 1.18.20.21: (Android Exclusive Version, Requires Experimental Mode)
+** - Previously placed frog spawn will turn into unknown blocks, storing the old "minecraft:frog_egg" id
+
+(*) - Tadpoles only have 2 hearts. To prevent the tadpoles from growing you can scoop them up. To distinguish them from normal tadpoles, you can use the discontinued feature tweaks pack
+<br><br>
+Beta 1.18.20.23: (Android Exclusive Version)
+All types of Torches, redstone dust and Glow Lichen can be placed or attached to Brewing Stands
+
+Azalea and Lily Pads don't break if flowing water is next to them
+<br>
+
+
+1.18.30:
+!!!   PDV: World sizes may fluctuate. They can randomly increase exponentially, resulting in Worlds with gigabytes of junk data   !!!
+All types of Torches, redstone dust, Glow Lichen and Walls can be placed or attached to Bells
+In this version, you can use the regen dupe. Blocks placed and broken in any dimension can reappear in glitched states upon re-entering the dimension or relogging. In order for this to work, following requirements must be met: It must be in the East or the West, it must be the lowest subchunk (higher subchunks won't work) and the subchunk must be completely empty. This allows us to create half-beds, invisible shulker boxes, headless pistons, lit redstone components, wall skulls, etc. Once all of the requirements are met, you must place the blocks you wanna turn into glitched blocks, relog or switch dimensions, go back and break all the blocks, relog or switch again and when going back again they should be back in a glitched/invisible state. Some things even drop themselves if you were to break them such as wall skulls. Wall skulls have different variants depending on how you place the skulls down. Placing down a skull on the ground will give you a Wither Skeleton Wall Skull, but placing them connected to a wall facing certain cardinal directions gives you other variants. West gives you a Creeper Wall Skull, South gives you a Steve Wall Skull, North gives you a Zombie Wall Skull and East gives you a Dragon Wall Skull. Note: The different wall skull variations stack with each other and placing them down will turn them into Skeleton Skulls
+<br>
+Beta 1.18.30.28: (Android Exclusive Version)
+Note: the New UI will say "Achievements cannot be earned" when if Beta Features are turned on, but that is not the case. Achievements will still be on like normal.
+
+Weaponsmiths can sometimes have a third trade on their Novice level trades
+
+Older worlds that have areas unexplored since before 1.18 will have corrupted chunks below y=0
+<br>
+
+
+Beta 1.18.30.28: (Requires Experimental Mode)
+Blowing up sculk shriekers with TNT drops them as an item
+<br>
+
+
+Beta 1.18.30.32: (Requires Experimental Mode)
+If a charged Sculk Block is being pushed with a flying machine while it is generating Sculk Veins, it can generate Sculk Veins that are in mid-air
+
+Ancient City structures generate with Structure Void blocks Example: Seed: 6791737265786059692, Coordinates: -1294  -40  -1494
+
+Ancient City structures can extend far beyond the Deep Dark biome
+
+Aquifers can sometimes intersect with Ancient City structures and submerge/destroy big chunks of the structure
+Reinforced Deepslate can be pushed by Pistons
+<br>
+
+
+Beta 1.19.0.20: (Android Exclusive Version)
+This version allows you to obtain copper horns. To keep them, you can store them in shulker boxes like with other items
+<br>
+
+
+Beta 1.19.0.26: (Android Exclusive Version)
+ - Mangrove propagules will turn into unknown blocks, keeping their old id in the next version
+
+Mangrove Roots can be used as fuel in Furnaces
+<br>
+
+
+1.19.0:
+** - Breaking Mangrove leaves with Shears may drop leaves that don't stack with each other. These can have a "update_bit" tag, "persistant_bit" tag, or both. Just like other items, these can be stored in shulker boxes to stop them from disappearing
+
+Support Blocks like skulls may appear facing the wrong way in ancient cities
+<br>
+
+
+1.19.2:
+Shulkers inflict levitation 2 instead of levitation 1. To keep this effect, you can let a shulker hit any scoopable mob and promptly scoop them up again after the hit
+Preview 1.19.70.26:
+Suspicious Sand can be obtained by letting it fall onto an item frame
+
+Entities that are larger than the boat itself fit into boats
+
+Identical decorated pots stack with each other
+<br>
+
+
+Preview 1.19.80.21:
+Suspicious Gravel can be obtained by letting it fall onto an item frame
+<br>
