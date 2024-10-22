@@ -3,12 +3,11 @@ Fake Wood Slabs - Craft wooden slabs. These act like stone slabs which need to b
 
 
 0.5.0: Alpha
-- Nether Reactor Cores can be crafted using 6 iron and 3 diamonds.
+Nether Reactor Core - craft using 6 iron and 3 diamonds.
 
-- Nether Reactor Cores drop Sugar Cane Tile Blocks
+Sugar Cane Tile - Activate a nether core reactor, then they will pop out of the floor.
 
-- If the game is closed while the Nether Reactor Core is active, the state of the core will be frozen, and the glowing obsidian will remain intact.
-
+Glowing Obsidian - Close the game after activating a nether reactor core. The glowing obsidian will remain intact and then can be mined.
 
 0.6.0: Alpha
 - Any cake blocks that are placed convert to info_update2. These blocks can be mined with any tool and will drop themselves
