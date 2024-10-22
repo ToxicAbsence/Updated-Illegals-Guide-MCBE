@@ -1,5 +1,5 @@
 0.4.0: Alpha
-- Wooden slabs can be crafted which later on turn into "Fake Wood Slabs". These are the equivalent to Petrified Oak Slabs in Java and even share the same properties
+- Wooden slabs can be crafted which later on turn into "Fake Wood Slabs". These act like stone slabs which need to be mined with a pickaxe and are also fire proof.
 
 
 0.5.0: Alpha
