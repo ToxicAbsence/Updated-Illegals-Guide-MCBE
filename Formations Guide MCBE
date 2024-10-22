@@ -1,6 +1,7 @@
 0.2.0: Alpha
 - By placing cacti, sugar cane, flowers, mushrooms or ladders on top snow, you can bypass the usual placement restrictions and have them replace the top snow. This allows for plants to be placed on any block with top snow and invisible ladders. To stop the sugarcane and cacti from breaking, simply place a block above the top snow before placing them.
 
+- By placing a door next to a cactus you will get a half door.
 
 0.4.0: Alpha
 - Red dye is obtainable through smelting red mushrooms, which allows for red dye in the output slot of a furnace 
